@@ -45,8 +45,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
- }
+}
+
+.window-wrap {
+    display: flex;
+    align-items: center;  
+    justify-content: space-evenly;
+}
 
 .bb1 {
     width: 10%;
@@ -175,6 +180,21 @@ body {
     width: 10% ;
     height: 60%;
     background-color: var(--building-color4);
+}
+
+/* .fb1a {
+    width: %;
+    height: %;
+} */
+
+.fb1b {
+    width: 60%;
+    height: 10%;
+}
+
+.fb1c {
+    width: 100%;
+    height: 80%;
 }
 
 .fb2 {
